@@ -18,10 +18,3 @@ S_MAIN_Y	🟡 YELLOW	          🔴 RED	           Transitioning to side road
 S_SIDE_G	🔴 RED	            🟢 GREEN	         Side road has right of way
 S_SIDE_Y	🔴 RED	            🟡 YELLOW	         Transitioning back to main
 
-📊 Signal Description
-Signal	           Width	      Direction	      Description
-clk	               1 bit	       Input	      System clock (positive edge-triggered)
-rst	               1 bit	       Input	      Active-high synchronous reset
-sensor	           1 bit	       Input	      Vehicle detection on side road (1=car present)
-light_main[2:0]    3 bits	       Output	      Main road traffic light (RGB order)
-light_side[2:0]	   3 bits	       Output	      Side road traffic light (RGB order)
